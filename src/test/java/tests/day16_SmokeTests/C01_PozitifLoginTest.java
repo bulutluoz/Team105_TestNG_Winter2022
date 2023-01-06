@@ -25,6 +25,7 @@ public class C01_PozitifLoginTest {
 
         ReusableMethods.bekle(2);
 
+
         Assert.assertTrue(qualitydemyPage.basariliGirisCoursesLinki.isDisplayed());
         Driver.closeDriver();
     }
