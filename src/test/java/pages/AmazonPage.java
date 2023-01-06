@@ -12,6 +12,7 @@ public class AmazonPage {
     // ve varsa login islemi gibi basit method'lar icin kullanilir
 
     public AmazonPage(){
+
         PageFactory.initElements(Driver.getDriver(),this);
     }
 

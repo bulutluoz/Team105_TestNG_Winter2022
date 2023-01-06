@@ -30,6 +30,7 @@ public class C04_NegativeLoginTesti {
     @Test
     public void yanlisPasswordTesti(){
         Driver.getDriver().get("https://www.qualitydemy.com/");
+        qualitydemyPage= new QualitydemyPage();
         qualitydemyPage.ilkLoginLinki.click();
         qualitydemyPage.kullaniciEmailKutusu.sendKeys("user_1106147@login.com");
         qualitydemyPage.passwordKutusu.sendKeys("123456");
@@ -44,6 +45,7 @@ public class C04_NegativeLoginTesti {
     @Test
     public void yanlisEmailYanlisPasswordTesti(){
         Driver.getDriver().get("https://www.qualitydemy.com/");
+        qualitydemyPage= new QualitydemyPage();
         qualitydemyPage.ilkLoginLinki.click();
         qualitydemyPage.kullaniciEmailKutusu.sendKeys("mehmet@abc.com");
         qualitydemyPage.passwordKutusu.sendKeys("123456");
