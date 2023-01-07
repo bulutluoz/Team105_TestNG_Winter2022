@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirli package calistirma">
+    <test name="Istenen package'lari calistirma">
+        
+        <packages>
+            <package name="tests.day15_SoftAssert"></package>
+        </packages>
+    </test>
+</suite>
