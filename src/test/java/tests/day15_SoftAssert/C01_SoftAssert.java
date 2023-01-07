@@ -8,7 +8,7 @@ import utilities.Driver;
 
 public class C01_SoftAssert {
 
-    @Test
+    @Test(groups = "minireg2")
     public void test01(){
 
         // amazon anasayfaya gidin

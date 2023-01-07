@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="grup calistirma">
+<suite name="grup calistirma" verbose="10">
 
     <test name="Istenen grubu calistirma">
         <!-- Istenen bir grubu calistirmak icin
@@ -11,14 +11,24 @@
              2- calisacak grup ismi ne ?
 
              Bu iki bilgiyi vermek icin 2 hiyerarsi olusturmamiz gerekir.
+
+
+             Bir method'a birden fazla grup ismi verilebilir
+
+             suite satirina eklenebilecek verbose = deger
+             konsolda yazdirilan hatalarin ayrinti miktarini belirler
+             1 en az ayrinti
+             10 en cok ayrinti
              -->
         <groups>
             <run>
                 <include name="minireg1"></include>
+                <include name="minireg2"></include>
             </run>
         </groups>
         <packages>
             <package name="tests.day14_testNGFramework"></package>
+            <package name="tests.day15_SoftAssert"></package>
         </packages>
 
 

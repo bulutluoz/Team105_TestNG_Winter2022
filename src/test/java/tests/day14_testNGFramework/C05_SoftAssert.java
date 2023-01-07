@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 public class C05_SoftAssert {
 
 
-    @Test(groups = "minireg1")
+    @Test(groups = {"minireg1","smoke"})
     public void test01(){
 
         // 1.adim softAssert objesi olusturmak
