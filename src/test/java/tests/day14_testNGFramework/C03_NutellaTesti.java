@@ -11,7 +11,7 @@ import utilities.ReusableMethods;
 
 public class C03_NutellaTesti {
 
-    @Test
+    @Test(groups = "minireg1")
     public void test01(){
         ReusableMethods.bekle(3);
         // amazon anasayfaya gidin
