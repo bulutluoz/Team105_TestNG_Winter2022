@@ -4,13 +4,17 @@
 
     <test name="Cross Browser Chrome ile calisacak classlar">
       <parameter name="browser" value="chrome"></parameter>
-
+        <classes>
+            <class name="tests.day19_crossBrowser.C01_AmazonSearch"></class>
+        </classes>
 
     </test>
 
     <test name="Cross Browser firefox ile calisacak classlar">
         <parameter name="browser" value="firefox"></parameter>
-
+        <classes>
+            <class name="tests.day19_crossBrowser.C02_WiseQuarterTest"></class>
+        </classes>
 
     </test>
 
