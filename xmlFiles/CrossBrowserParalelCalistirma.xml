@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Cross Browser Sirali calistirma">
+<suite name="Cross Browser Sirali calistirma" parallel="tests" thread-count="2">
 
     <test name="Cross Browser Chrome ile calisacak classlar">
-      <parameter name="browser" value="chrome"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="tests.day19_crossBrowser.C01_AmazonSearch"></class>
         </classes>
