@@ -10,6 +10,7 @@ public class C03_SwitchingWindows {
 
     @Test
     public void test01(){
+        ReusableMethods.bekle(2);
 
         // https://the-internet.herokuapp.com/iframe adresine gidin
         Driver.getDriver().get("https://the-internet.herokuapp.com/iframe");
